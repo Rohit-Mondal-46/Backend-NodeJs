@@ -1,0 +1,21 @@
+{
+  "unknown": {
+    "versionSfCore": null,
+    "versionFramework": "4.1.16",
+    "isWithinCompose": false,
+    "composeOrgName": null,
+    "composeServiceName": null,
+    "command": [],
+    "options": {},
+    "error": {
+      "message": "app-name may contain only numbers, uppercase letters, lowercase letters, dashes, and underscores. - Please contact support and provide this identifier to reference this issue - K0NGT6WZBQH6",
+      "stack": "Error: app-name may contain only numbers, uppercase letters, lowercase letters, dashes, and underscores. - Please contact support and provide this identifier to reference this issue - K0NGT6WZBQH6\n    at _AppsClient.makeRequest (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:179:422328)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _AppsClient._post (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:179:421502)\n    at async _AppsClient.create (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:179:428134)\n    at async ensureAppInConfigFile (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:888:690)\n    at async setOrgAndApp (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:882:6185)\n    at async routeNew (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:882:220)\n    at async commandOnboarding (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:880:5024)\n    at async catchAllHandler (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:905:19715)\n    at async runCommand (file:///C:/Users/rohit/.serverless/releases/4.1.16/package/dist/sf-core.js:909:4100)"
+    },
+    "machineId": "8fdb8800a994e765883f09891a58cddb",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}
